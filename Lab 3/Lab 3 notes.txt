@@ -1,0 +1,12 @@
+Lab 5 notes
+
+equals.IgnoreCase is used to compare strings and return a Boolean condition ( true/false )
+
+.getMessage = shows the type of exception produced
+
+ 
+We can also use file writer to write contents to the text file
+We need to import FileWriter class
+.write is a function of the filewriter class which writes the content to the text file
+
+We can use the file reader class to read from the text file

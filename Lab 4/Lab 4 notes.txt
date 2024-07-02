@@ -1,0 +1,35 @@
+Lab 4 notes
+
+Constructor is a unique method which has the same name as the class name and does not have a return type. The constructor is used to initialize the variables (object's attribute) and it will not return any values. If we don't provide a constructor, java will provide a default constructor with no parameters. A constructor with no parameter is used to assign a default value.
+
+Eg: public Student()
+	name = noname;
+
+New keyword
+The new keyword is used to create a new object (Eg: new Scanner(System.in)
+
+overwrite = polymorphism
+
+Setter & Getter
+The setter and getters are used to increase the security (not every attributes are in the same method)
+The setter (mutator) is used to set / modify the value of the object's attribute
+The getter (accessor) is used to retrieve the value of the objects's attribute
+
+
+Access modifier
+public = the attributes can be accessed outside the class
+private = the attributes can be accessed only within the class
+
+Example:
+Scanner keyboard = new Scanner(System.in)
+Scanner = class name
+keyboard = object
+Scanner() = constructor
+
+this keyword (this.) is used to specify the value to be assigned to the variable
+Eg: this.carModel = car_Model;
+
+toString method is used to return an object's string (print out the string of the objects)
+Whenever we print out the values in the dummy file using system.out.print(); , it is implicitly calling the toString() method.
+
+ArrayList<Car> al = new ArrayList<Car>() means it will only accept the values of the object Car into the ArrayList.
